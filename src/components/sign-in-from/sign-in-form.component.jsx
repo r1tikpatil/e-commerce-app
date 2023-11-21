@@ -44,11 +44,11 @@ const SignInForm = () => {
     }
   };
 
-  const handleChange = (event) => {
-    const { name, value } = event.target;
+    const handleChange = (event) => {
+      const { name, value } = event.target;
 
-    setFormFields({ ...formFields, [name]: value });
-  };
+      setFormFields({ ...formFields, [name]: value });
+    };
 
   return (
     <SignInContainer>
